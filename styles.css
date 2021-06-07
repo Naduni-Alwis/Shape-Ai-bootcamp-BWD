@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border box;
+}
+
+html {
+  font-family: "Monteserrat", sans-serif;
+}
+
+header {
+  background-color: aqua;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 3);
+}
+
+header h1 {
+  color: #000080;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+body {
+  background: #b0e0e6;
+  padding: 0 16px;
+}
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: blueviolet;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px#ccc;
+  padding: 10px;
+  width: 240px;
+}
